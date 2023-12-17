@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 const todoList = () => {
     all = []
     const add = (todoItem) => {
@@ -176,4 +175,3 @@ const todoList = () => {
   let formattedItemsDueLater = todos.toDisplayableList(itemsDueLater)
   console.log(formattedItemsDueLater)
   console.log("\n\n")
-  module.exports=todoList;
